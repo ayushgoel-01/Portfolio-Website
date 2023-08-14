@@ -166,6 +166,52 @@ a{
     align-items: center;
 }
 
+@media screen and (max-width: 450px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .faded-text{
+        scale: 0.6;
+        margin-left: -7%;
+    }
+    .user-img{
+        margin-left: -87%;
+        margin-top: 2.5rem;
+        scale: 0.7;
+    }
+    .hero-left{
+        margin-left: -45%;
+        scale: 0.7;
+        height: 70%;
+    }
+    .hero-l3{
+        width: 50%;
+    }
+    .btn-pink{
+        margin-left: 15%;
+        scale: 0.7;
+    }
+    .skills-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .skill-fade-text{
+       visibility: hidden;
+    }
+    .btn-grp{
+        padding: 10px;
+    }
+    .skill-container-right img{
+        size: 10px;
+    }
+    .contactus-heading, .contactus-subheading{
+        scale: 0.7;
+    }
+}
+
 .user-img{
     padding: 2.5rem;
     filter: grayscale(1);
